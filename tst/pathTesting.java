@@ -83,7 +83,7 @@ class pathTesting {
 		Dimension Velocity = new Dimension(0,0,0);
 		HowitzerShell testShell = new HowitzerShell(Position, Velocity, 45,0.1,-0.6);
 		HowitzerShell testShellTwo = new HowitzerShell(Position, Velocity, 45,0.1,0);
-		HowitzerShell testShellThree = new HowitzerShell(Position, Velocity, 45,0.1,1);
+		HowitzerShell testShellThree = new HowitzerShell(Position, Velocity, 45,0.1,1.01);
 		HowitzerShell testShellFour = new HowitzerShell(Position, Velocity, 45,0.1,10);
 		HowitzerShell resultShell = new HowitzerShell();
 		HowitzerShell resultShellTwo = new HowitzerShell();
@@ -111,7 +111,7 @@ class pathTesting {
 		Dimension Velocity = new Dimension(0,0,0);
 		HowitzerShell testShell = new HowitzerShell(Position, Velocity, 45,-0.6,0.6);
 		HowitzerShell testShellTwo = new HowitzerShell(Position, Velocity, 45,0,0.6);
-		HowitzerShell testShellThree = new HowitzerShell(Position, Velocity, 45,1,0.6);
+		HowitzerShell testShellThree = new HowitzerShell(Position, Velocity, 45,1.01,0.6);
 		HowitzerShell testShellFour = new HowitzerShell(Position, Velocity, 45,10,0.6);
 		HowitzerShell resultShell = new HowitzerShell();
 		HowitzerShell resultShellTwo = new HowitzerShell();

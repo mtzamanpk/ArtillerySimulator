@@ -2,6 +2,8 @@
 
 ##### Simran Brar, Maksim Sharoika, Muhammad Zaman
 
+### Further documentation if present in the /documents/ directory. 
+
 ### Project Description
 
 A Howitzer company is asking for a simulator to teach the soldiers about kinematics and dynamics. They would like to simulate the howitzer shooting a projectile across an empty field in a 3 dimensional space; the rest is open ended and discussed in the DESIGN-SELECTION.md file. 

@@ -7,10 +7,11 @@ class decisionTableBasedTesting {
 
 		/**
 		 * Decision Table based testing involves methodically testing different combinations of inputs
-		 * our inputs we valid and invalid Z position, wieght, height, diameter, wind speed, wind angle 
+		 * our inputs we valid and invalid Z position, weight, height, diameter, wind speed, wind angle 
 		 * which resulted in 7 test cases according to the table below:
-		 *	_______________________________________________________________________________________________________________________				
-		 *  |	Case |	Wind Angle	| Wind Speed	| Z Psoition Value	| Weight	| Height	| Diameter	| Expected Output     |
+		 *	__________________
+		 *____________Conditions_______________________________________________________________________________Actions__________				
+		 *  |	Case |	Wind Angle	| Wind Speed	| Z Position Value	| Weight	| Height	| Diameter	| Expected Output     |
 		 *  |________|______________|_______________|___________________|___________|___________|___________|_____________________|
 		 *	|1	     |Invalid		|Valid			|Valid				|Valid		|Valid		|Valid		|Null 			      |
 		 *  |________|______________|_______________|___________________|___________|___________|___________|_____________________|

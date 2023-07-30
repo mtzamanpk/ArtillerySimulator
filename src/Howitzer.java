@@ -32,7 +32,7 @@ public class Howitzer {
 	 * This is a setter that checks if a vertical angle is valid then sets it
 	 */
 	public Boolean adjustVerticleAngle(double verticleAngle) {
-		if (0 < verticleAngle && verticleAngle < 90) {
+		if (0 < verticleAngle && verticleAngle < 85) {
 			Barrel.setVerticleAngle(verticleAngle);
 			return true;
 		} else {

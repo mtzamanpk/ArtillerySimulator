@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class dataFlowTesting {
 
 /**
-		for Data flow coverage we are going to use def-use coverage, as du pair coverage is complex espically since there are many many definitions 
+		for Data flow coverage we are going to use def-use coverage, as du pair coverage is complex especially since there are many many definitions 
 		in the landing position calculator so we created a data flow graph which is included in the project files and achieved data flow coverage in different input cases
 		
 

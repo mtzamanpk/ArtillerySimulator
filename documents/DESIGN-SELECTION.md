@@ -41,7 +41,7 @@ as it has the highest score.
 
 Post Design Solution Analysis:
 
-Comparing against real-world information provided by the manufacturer of M777 we can cearly
+Comparing against real-world information provided by the manufacturer of M777 we can clearly
 say that Solution 3 is the most accurate due to the max range, and max height being almost
 identical to that we would expect in the real world. (max range of about 25km, and a max height of about 12km based on angled of 45 and 30.) Other solutions tended to be further off by factors of kilometers. 
 

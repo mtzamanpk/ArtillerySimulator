@@ -145,9 +145,10 @@ public class ForceSimulator {
 	 * (cross sectional area)
 	 **/
 	public  double getDragAccleration(HowitzerShell shell, double velocity, double time) {
-		// since howizer can shoot up to 10km in the air, we taking the average density
+		// since howitzer can shoot up to 10km in the air, we taking the average density
 		// of 0m to 10km.
-		double fluidDensity = 0.9;
+		double fluidDensity = 0.9; // at surface density is around 1.2 whereas the density closer to the upper limits of trajectory is closer to 0.5
+		// so the density was averaged to 0.9 for simplicity
 		double dragCoefficent = 0.3;
 		double sqaureVelocity = velocity * velocity;
 		double radius = (shell.getDiameter() / 2);

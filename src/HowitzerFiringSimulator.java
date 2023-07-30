@@ -135,6 +135,9 @@ public class HowitzerFiringSimulator {
 				input = reader.readLine();
 				hasSetVerticle = howitzer.adjustVerticleAngle(Double.parseDouble((input)));
 			} catch (Exception e) {
+				hasSetVerticle = false; 
+			}
+			if (hasSetVerticle == false) {
 				System.out.println("The verticle angle entered is invalid, please try again.");
 			}
 		}
@@ -146,6 +149,9 @@ public class HowitzerFiringSimulator {
 				input = reader.readLine();
 				hasSetHorizontal = howitzer.adjustHorizontalAngle(Double.parseDouble((input)));
 			} catch (Exception e) {
+				hasSetHorizontal = false; 
+			}
+			if (hasSetHorizontal == false) {
 				System.out.println("The horizontal angle entered is invalid, please try again.");
 			}
 		}
@@ -174,7 +180,10 @@ public class HowitzerFiringSimulator {
 						hasSetWindDirection = true;
 					}
 				} catch (Exception e) {
-					System.out.println("\n" + "Please enter a valid direction");
+					hasSetWindDirection = false;
+				}
+				if (hasSetWindDirection == false) {
+					System.out.println("Please enter a valid direction");
 				}
 			}
 
@@ -190,7 +199,10 @@ public class HowitzerFiringSimulator {
 						hasSetWindAngle = true;
 					}
 				} catch (Exception e) {
-					System.out.println("\n" + "Please enter a valid angle");
+					hasSetWindAngle = false;
+				}
+				if (hasSetWindAngle == false) {
+					System.out.println("Please enter a valid angle");
 				}
 			}
 
@@ -240,10 +252,15 @@ public class HowitzerFiringSimulator {
 			String input;
 			try {
 				input = reader.readLine();
-				speed = Double.parseDouble(input);
-				hasSet = true;
+				if (Double.parseDouble(input) >= 0) {
+					speed = Double.parseDouble(input);
+					hasSet = true;
+				}
 			} catch (Exception e) {
-				System.out.println("\n" + "Please enter a valid wind speed");
+				hasSet = false;
+			}
+			if (hasSet == false) { 
+				System.out.println("Please enter a valid wind speed");
 			}
 		}
 		return speed;
@@ -267,10 +284,16 @@ public class HowitzerFiringSimulator {
 						System.out.println("\n" + "Please enter propelled shell velocity [0-inf]: ");
 						try {
 							input = reader.readLine();
-							shell.setPropelledVelocity(Double.parseDouble(input));
-							// PropelledVelocity = Double.parseDouble(input);
-							hasSetVelocity = true;
+							if (Double.parseDouble(input) > 0) {
+								shell.setPropelledVelocity(Double.parseDouble(input));
+								hasSetVelocity = true;
+							} else {
+								hasSetVelocity = false;
+							}
 						} catch (Exception e) {
+							hasSetVelocity = false;
+						}
+						if (hasSetVelocity == false) {
 							System.out.println("The velocity entered in invalid, please try again.");
 						}
 					}

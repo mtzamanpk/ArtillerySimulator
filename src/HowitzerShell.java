@@ -107,6 +107,9 @@ public class HowitzerShell {
 				if (Weight >= 0 && Weight < 450) {
 					hasSetWeight = true;}
 			} catch (Exception e) {
+				hasSetWeight = false;
+			}
+			if (hasSetWeight == false) {
 				System.out.println("The weight entered in invalid, please try again.");
 			}
 		}
@@ -121,6 +124,9 @@ public class HowitzerShell {
 				if (Diameter > 0 && Diameter <= 1) {
 					hasSetDiameter = true;}
 			} catch (Exception e) {
+				hasSetDiameter = false;
+			}
+			if (hasSetDiameter == false) {
 				System.out.println("The diameter entered in invalid, please try again.");
 			}
 		}
@@ -135,6 +141,9 @@ public class HowitzerShell {
 				if (Height > 0 && Height <= 1) {
 				hasSetHeight = true;}
 			} catch (Exception e) {
+				hasSetHeight = false;
+			}
+			if (hasSetHeight == false) {
 				System.out.println("The height entered in invalid, please try again.");
 			}
 		}

@@ -6,7 +6,7 @@
 
 ### Project Description
 
-A Howitzer company is asking for a simulator to teach the soldiers about kinematics and dynamics. They would like to simulate the howitzer shooting a projectile across an empty field in 3-dimensional space; the rest is open-ended and discussed in the [DESIGN-SELECTION.md](https://github.com/sharoika/ArtillerySimulator/tree/main/documents) directory and https://github.com/sharoika/ArtillerySimulator/blob/main/TESTING.md file. 
+A Howitzer company is asking for a simulator to teach the soldiers about kinematics and dynamics. They would like to simulate the howitzer shooting a projectile across an empty field in 3-dimensional space; the rest is open-ended and discussed in the [DOCUMENTS](https://github.com/sharoika/ArtillerySimulator/tree/main/documents) directory and [TESTING.md](https://github.com/sharoika/ArtillerySimulator/blob/main/TESTING.md) file. 
 
 ### How to Install
 

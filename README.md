@@ -2,7 +2,7 @@
 
 ##### Simran Brar, Maksim Sharoika, Muhammad Zaman
 
-### Further documentation if present in the /documents/ directory. 
+### Further documentation is present in the /documents/ directory. 
 
 ### Project Description
 
